@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font_family;
+    line-height: 0.5em;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
