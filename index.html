@@ -5,13 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexGen</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /> 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/logo.PNG" type="image/x-icon">
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
+    <div class="" id="root">
+        <header>
+            <nav>
+                <div class="nav-top">
+                    <div class="container flex">
+                        <div class="top-left flex" >
+                            <span><i class="fas fa-clock"></i> Open Hours: Mon - Sat - 9:00 - 18:00</span>
+                        </div>
+                        <div class="top-right flex">
+                            <ul class="flex">
+                                <li><i class="fas fa-phone-alt"></i> +1 (305) 1234-5678</li>
+                                <li><i class="fas fa-envelope"></i> hello@example.com</li>
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <section class="bg-jumbo">
+                    <div class="nav-bottom">
+                        <div class="container flex">
+                            <div class="logo">
+                                <img src="./assets/img/logo.PNG" alt="">
+                            </div>
+                            <ul class="flex" >
+                                <li v-for="list in listNav"><a href="">{{ list.name }}</a></li>
+                                <li><a class="btn" href="">Get in touch</a></li>
+                            </ul>
+                        </div>
+                        <div class="jumbo ">
+                            <div class="infoJumbo">
+                                <div class="title">
+                                    <span class="titolo">Ready</span> <span class="bgTitle">Team</span>
+                                </div>
+                                <p>No matter what your company needs. we will be ready to assist you in the best possible way.</p>
+                                <div class="btns">
+                                    <button class="btn" href="">get in touch</button>
+                                    <button class="btn-2">read more</button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+                
+            </nav>
+        </header>
+        <main></main>
+        <footer></footer>
     
-
-
+    </div>
+    
 
 
 
