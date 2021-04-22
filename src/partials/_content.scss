@@ -289,3 +289,68 @@
         }
     }
 }
+
+.bg-results {
+    background-image: url("../img/bg-7.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    h4 {
+        text-align: center;
+        color: #3EABAA;
+        text-transform: uppercase;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        font-size: 0.8em;
+    }
+    #company {
+        width: 90%;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        span {
+            font-size: 2em;
+            font-weight: 700;
+           &.Title {
+               display: inline-block;
+               padding: 5px;
+               background-color: #0E272D;
+               border-radius: 4px;
+           }
+        }
+    }
+    .numbers {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        justify-content: space-around;
+        .number {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: 700;
+            span {
+                color: #3EABAA;
+                font-size: 1.3em;
+            }
+        }
+
+    }
+}
+
+.bg-blu {
+    background-color: #111117;
+    height: 200px;
+    .containerImg {
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            width: 100px;
+        }
+    }
+}

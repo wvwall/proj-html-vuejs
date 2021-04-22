@@ -463,3 +463,67 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 .bg-white .cards .card:hover .fa-arrow-right {
   display: block;
 }
+
+.bg-results {
+  background-image: url("../img/bg-7.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.bg-results h4 {
+  text-align: center;
+  color: #3EABAA;
+  text-transform: uppercase;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+.bg-results #company {
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.bg-results #company span {
+  font-size: 2em;
+  font-weight: 700;
+}
+.bg-results #company span.Title {
+  display: inline-block;
+  padding: 5px;
+  background-color: #0E272D;
+  border-radius: 4px;
+}
+.bg-results .numbers {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.bg-results .numbers .number {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.bg-results .numbers .number span {
+  color: #3EABAA;
+  font-size: 1.3em;
+}
+
+.bg-blu {
+  background-color: #111117;
+  height: 200px;
+}
+.bg-blu .containerImg {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bg-blu .containerImg img {
+  width: 100px;
+}
