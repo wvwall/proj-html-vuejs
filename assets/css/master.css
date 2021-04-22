@@ -26,6 +26,7 @@ li:hover {
 .btn:hover {
   text-decoration: none;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .btn-2 {
@@ -37,6 +38,18 @@ li:hover {
   text-decoration: none;
   border: 2px solid #038484;
   font-weight: 500;
+}
+
+.btn-3 {
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #000;
+  text-decoration: none;
+  border: 2px solid #038484;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
 .bgTitle {
@@ -204,6 +217,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   width: 80%;
   margin-top: 20px;
   margin-bottom: 10px;
+  font-size: 0.8em;
 }
 .bg-lightgreen .container .info .flex button {
   height: 40px;
@@ -252,7 +266,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-lightgreen .container .cards .card .infoCard p {
   margin-top: 20px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #7F7F7F;
 }
 
@@ -272,6 +286,73 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   background-image: url("../img/about-4.jpg");
   height: 700px;
   background-size: cover;
+}
+.bg-blue .container.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bg-blue .container.left .infoLeft {
+  width: 70%;
+  height: 550px;
+  color: #fff;
+}
+.bg-blue .container.left .infoLeft span.upper {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  color: #3EABAA;
+  font-size: 0.8em;
+  padding: 30px 0;
+}
+.bg-blue .container.left .infoLeft #company {
+  width: 90%;
+  margin: 0 auto;
+}
+.bg-blue .container.left .infoLeft #company span {
+  font-size: 2em;
+  font-weight: 700;
+}
+.bg-blue .container.left .infoLeft #company span.Title {
+  display: inline-block;
+  padding: 5px;
+  background-color: #0E272D;
+  border-radius: 4px;
+}
+.bg-blue .container.left .infoLeft p {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+.bg-blue .container.left .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bg-blue .container.left .cards .card {
+  width: calc(100% / 2 - 10px);
+  min-height: 100px;
+  margin-top: 30px;
+}
+.bg-blue .container.left .cards .card h4 {
+  width: 80%;
+  margin: 0 auto;
+}
+.bg-blue .container.left .cards .card h4 i {
+  color: #3EABAA;
+  margin-right: 10px;
+}
+.bg-blue .container.left .cards .card p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.bg-blue .container.left .btns {
+  width: 90%;
+  margin: 0 auto;
 }
 .bg-blue .bullets-1 {
   position: absolute;
