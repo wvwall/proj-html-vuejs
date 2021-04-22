@@ -25,6 +25,7 @@ li:hover {
 
 .btn:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-2 {
@@ -39,7 +40,7 @@ li:hover {
 }
 
 .bgTitle {
-  padding: 3px;
+  padding: 5px;
   background-color: #D5E7E8;
   color: #0B8586;
   border-radius: 4px;
@@ -52,7 +53,7 @@ li:hover {
 nav .nav-top {
   width: 100%;
   height: 3em;
-  background-color: #122439;
+  background-color: #21333E;
 }
 nav .nav-top .container {
   width: 75%;
@@ -159,7 +160,132 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .title span {
 }
 nav .bg-jumbo .nav-bottom .jumbo .infoJumbo p {
   margin-top: 20px;
+  color: #6A767E;
 }
 nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-top: 30px;
+}
+
+.bg-lightgreen {
+  height: auto;
+  background-color: #EEF4ED;
+  padding-bottom: 100px;
+}
+.bg-lightgreen .container {
+  width: 75%;
+  margin: 0 auto;
+}
+.bg-lightgreen .container .info {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.bg-lightgreen .container .info span {
+  font-weight: 700;
+}
+.bg-lightgreen .container .info span.upper {
+  text-transform: uppercase;
+  color: #3EABAA;
+  font-size: 0.8em;
+  padding: 30px 0;
+}
+.bg-lightgreen .container .info span.titolo {
+  font-size: 2em;
+}
+.bg-lightgreen .container .info span.bgTitle {
+  font-size: 2em;
+}
+.bg-lightgreen .container .info .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-lightgreen .container .info .flex p {
+  color: #7F7F7F;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bg-lightgreen .container .info .flex button {
+  height: 40px;
+  margin-top: 20px;
+}
+.bg-lightgreen .container .cards {
+  margin-top: 20px;
+}
+.bg-lightgreen .container .cards.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bg-lightgreen .container .cards .card {
+  width: calc(100% / 3 - 20px);
+  min-height: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.bg-lightgreen .container .cards .card.card:hover .fa-arrow-right {
+  background-color: #D5E7E8;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.bg-lightgreen .container .cards .card .icon {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.bg-lightgreen .container .cards .card .icon i {
+  font-size: 1.9em;
+  color: #058283;
+}
+.bg-lightgreen .container .cards .card .infoCard {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.bg-lightgreen .container .cards .card .infoCard p {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #7F7F7F;
+}
+
+.bg-blue {
+  width: 100%;
+  height: auto;
+  background-color: #111117;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+.bg-blue .container {
+  height: 700px;
+  width: 50%;
+}
+.bg-blue .container.right {
+  background-image: url("../img/about-4.jpg");
+  height: 700px;
+  background-size: cover;
+}
+.bg-blue .bullets-1 {
+  position: absolute;
+  width: 100px;
+  top: 2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+.bg-blue .bullets-2 {
+  position: absolute;
+  width: 100px;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
 }

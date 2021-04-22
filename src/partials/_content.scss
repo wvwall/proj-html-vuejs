@@ -1,0 +1,125 @@
+.bg-lightgreen {
+    height: auto;
+    background-color: $bgCardsSections;
+    padding-bottom: 100px;
+    .container {
+        width: $container-width;
+        margin: 0 auto;
+        .info {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            span {
+                &.upper {
+                    text-transform: uppercase;
+                    color: #3EABAA;
+                    font-size: 0.8em;
+                    padding: 30px 0;
+                }
+                &.titolo{
+                    font-size: 2em;
+                    
+                }
+                &.bgTitle {
+                    font-size: 2em;
+                }
+                font-weight: 700;
+            }
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                p {
+                    color: #7F7F7F;
+                    width: 80%;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+                button {
+                    height: 40px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .cards {
+            margin-top: 20px;
+            &.flex {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            .card {
+                width: calc(100% / 3 - 20px);
+                min-height: 220px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                cursor: pointer;
+                background-color: #fff;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                &.card:hover .fa-arrow-right {
+                    background-color: #D5E7E8;
+                    padding: 5px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+                
+                .icon {
+                    width: 80%;
+                    margin: 0 auto;  
+                    margin-top: 30px;                  display: flex;
+                    justify-content: space-between;
+                    i {
+                        font-size: 1.9em;
+                        color: #058283;
+                    }
+                }
+                .infoCard {
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    p {
+                        margin-top: 20px;
+                        font-size: 0.9em;
+                        color: #7F7F7F;
+                    }
+                }
+            }
+        }
+       
+    }
+}
+
+.bg-blue {
+    width: 100%;
+    height: auto;
+    background-color: #111117;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    .container {
+        height: 700px;
+        width: 50%;
+        &.right {
+            background-image: url("../img/about-4.jpg");
+            height: 700px;
+            background-size: cover;
+        }
+    }
+    .bullets-1 {
+        position: absolute;
+        width: 100px;
+        top: 2px;
+        left: 50%;
+        transform: translate(- 50%, - 50%);
+        opacity: 0.3;
+    }
+    .bullets-2 {
+        position: absolute;
+        width: 100px;
+        bottom: -100px;
+        left: 50%;
+        transform: translate(- 50%, - 50%);
+        opacity: 0.3;
+    }
+}
