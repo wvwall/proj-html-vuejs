@@ -143,7 +143,7 @@
                 </div>
             </section>
 
-            <div class="bg-blue">
+            <section class="bg-blue">
                 <img class="bullets-1" src="./assets/img/bullets.png" alt="">
                 <div class="container left">
                     <div class="infoLeft">
@@ -181,8 +181,37 @@
                 </div>
                 <div class="container right"></div>
                 <img class="bullets-2" src="./assets/img/bullets.png" alt="">
-            </div>
+            </section>
 
+            <section class="bg-white">
+                <h4>we do more for everyone</h4>
+                <div class="titlePro">
+                    <span class="titolo">Actions &</span> <span class="bgTitle">Projects</span>
+                </div>
+                <ul class="list">
+                    <li id="firstLi">all</li>
+                    <li>institutional</li>
+                    <li>social</li>
+                    <li>events</li>
+                    <li>innovation</li>
+                    <li>environment</li>
+                    <li>technology</li>
+                </ul>
+                <div class="cards">
+                    <div class="card" v-for="card in img" >
+                        <i class="fas fa-arrow-right"></i>
+                        <p>{{ card.text }}</p>
+                        <img :src="card.name" alt="">
+                        <p class="pHover">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section>
+
+            </section>
+            
         </main>
 
         <footer></footer>
