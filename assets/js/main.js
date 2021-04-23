@@ -56,7 +56,85 @@ var app = new Vue ({
             name : "./assets/img/project-6.jpg",
             text : "Confraternization of the procurement team"
         },
-     ]
+     ],
+
+     about : [
+        {
+            name: "The Company"
+        },
+
+        {
+            name: "Institutional"
+        },
+
+        {
+            name: "Social & Events"
+        },
+
+        {
+            name: "Innovation"
+        },
+
+        {
+            name: "Environment"
+        },
+
+        {
+            name: "Technology"
+        },
+     ],
+
+     services : [
+        {
+            name: "Audit & Assurance"
+        },
+
+        {
+            name: "Financial Advisor"
+        },
+
+        {
+            name: "Analytics M&A"
+        },
+
+        {
+            name: "Middle Marketing"
+        },
+
+        {
+            name: "Legal Consulting"
+        },
+
+        {
+            name: "Regulatory Risk"
+        },
+     ],
+
+     support : [
+        {
+            name: "Responsibility"
+        },
+
+        {
+            name: "Terms of Use"
+        },
+
+        {
+            name: "About Cookies"
+        },
+
+        {
+            name: "Privacy Policy"
+        },
+
+        {
+            name: "Accessibility"
+        },
+
+        {
+            name: "Information"
+        },
+     ],
     },
     
   });

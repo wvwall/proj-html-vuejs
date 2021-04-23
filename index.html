@@ -289,8 +289,27 @@
                         </div>
                         <button class="btn-3">GET IN TOUCH</button>
                     </div>
-                    <div class="rightFoot"></div>
+                    <div class="rightFoot">
+                        <div class="container">
+                            <ul> <h4>About</h4>
+                                <li v-for="list in about"><i class="fas fa-chevron-right"></i> {{ list.name }}</li>
+                            </ul>
+                            <ul> <h4>Services</h4>
+                                <li v-for="list in services"><i class="fas fa-chevron-right"></i> {{ list.name }}</li>
+                            </ul>
+                            <ul> <h4>Support</h4>
+                                <li v-for="list in support"><i class="fas fa-chevron-right"></i> {{ list.name }}</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>  
+            </section>
+
+            <section class="bg-footer-bottom">+
+                <div class="container">
+                    <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+                    <p>2021 NEXGEN is Proundly Powered by <a href="https://github.com/wvwall" target="_blank" >wvwall</a>.</p>
+                </div>
             </section>
         </footer>
     
