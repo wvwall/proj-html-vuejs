@@ -14,9 +14,9 @@ li:hover {
 }
 
 .btn {
-  padding: 10px;
+  padding: 10px 15px;
   color: #fff;
-  background-color: #038484;
+  background-color: #41C457;
   border-radius: 4px;
   text-transform: uppercase;
   text-decoration: none;
@@ -31,12 +31,12 @@ li:hover {
 
 .btn-2 {
   padding: 10px;
-  color: #038484;
+  color: #41C457;
   background-color: #fff;
   border-radius: 4px;
   text-transform: uppercase;
   text-decoration: none;
-  border: 2px solid #038484;
+  border: 2px solid #41C457;
   font-weight: 500;
 }
 
@@ -47,7 +47,7 @@ li:hover {
   text-transform: uppercase;
   background-color: #000;
   text-decoration: none;
-  border: 2px solid #038484;
+  border: 2px solid #41C457;
   font-weight: 500;
   margin-left: 10px;
 }
@@ -55,7 +55,7 @@ li:hover {
 .bgTitle {
   padding: 5px;
   background-color: #D5E7E8;
-  color: #0B8586;
+  color: #41C457;
   border-radius: 4px;
 }
 
@@ -143,7 +143,7 @@ nav .bg-jumbo .nav-bottom .container ul li a {
 nav .bg-jumbo .nav-bottom .container ul li a.btn {
   padding: 10px;
   color: #fff;
-  background-color: #038484;
+  background-color: #41C457;
   border-radius: 4px;
 }
 nav .bg-jumbo .nav-bottom .container ul li a.btn:hover {
@@ -198,7 +198,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-lightgreen .container .info span.upper {
   text-transform: uppercase;
-  color: #3EABAA;
+  color: #41C457;
   font-size: 0.8em;
   padding: 30px 0;
 }
@@ -257,7 +257,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-lightgreen .container .cards .card .icon i {
   font-size: 1.9em;
-  color: #058283;
+  color: #41C457;
 }
 .bg-lightgreen .container .cards .card .infoCard {
   width: 80%;
@@ -302,19 +302,19 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin: 0 auto;
   display: block;
   text-transform: uppercase;
-  color: #3EABAA;
+  color: #41C457;
   font-size: 0.8em;
   padding: 30px 0;
 }
-.bg-blue .container.left .infoLeft #company {
+.bg-blue .container.left .infoLeft .titSec {
   width: 90%;
   margin: 0 auto;
 }
-.bg-blue .container.left .infoLeft #company span {
+.bg-blue .container.left .infoLeft .titSec span {
   font-size: 2em;
   font-weight: 700;
 }
-.bg-blue .container.left .infoLeft #company span.Title {
+.bg-blue .container.left .infoLeft .titSec span.Title {
   display: inline-block;
   padding: 5px;
   background-color: #0E272D;
@@ -342,7 +342,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin: 0 auto;
 }
 .bg-blue .container.left .cards .card h4 i {
-  color: #3EABAA;
+  color: #41C457;
   margin-right: 10px;
 }
 .bg-blue .container.left .cards .card p {
@@ -371,55 +371,55 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   opacity: 0.3;
 }
 
-.bg-white {
+.bg-cards {
   margin-top: 120px;
   margin-bottom: 80px;
 }
-.bg-white h4 {
+.bg-cards h4 {
   text-align: center;
   text-transform: uppercase;
   color: #3EABAA;
   font-size: 0.8em;
   padding: 20px;
 }
-.bg-white .titlePro {
+.bg-cards .titSec {
   text-align: center;
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 30px;
 }
-.bg-white .list {
+.bg-cards .list {
   display: flex;
   justify-content: center;
   width: 60%;
   margin: 0 auto;
 }
-.bg-white .list li {
+.bg-cards .list li {
   padding: 10px;
   text-transform: uppercase;
   font-size: 0.9em;
   color: #504151;
   margin-bottom: 20px;
 }
-.bg-white .list li#firstLi {
+.bg-cards .list li#firstLi {
   background-color: #D5E7E8;
   border-radius: 4px;
 }
-.bg-white .cards {
+.bg-cards .cards {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.bg-white .cards .card {
+.bg-cards .cards .card {
   width: calc(100% / 3 - 25px);
   height: 330px;
   border-radius: 10px;
   margin-bottom: 20px;
   position: relative;
 }
-.bg-white .cards .card p {
+.bg-cards .cards .card p {
   width: 100%;
   text-align: center;
   position: absolute;
@@ -429,13 +429,13 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   font-size: 1.1em;
   z-index: 1;
 }
-.bg-white .cards .card img {
+.bg-cards .cards .card img {
   height: 100%;
   width: 100%;
   border-radius: 10px;
   filter: brightness(0.6);
 }
-.bg-white .cards .card .fa-arrow-right {
+.bg-cards .cards .card .fa-arrow-right {
   color: #fff;
   position: absolute;
   top: 30px;
@@ -443,7 +443,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   z-index: 1;
   display: none;
 }
-.bg-white .cards .card .pHover {
+.bg-cards .cards .card .pHover {
   padding: 20px;
   text-align: center;
   position: absolute;
@@ -454,13 +454,13 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   z-index: 1;
   display: none;
 }
-.bg-white .cards .card:hover {
+.bg-cards .cards .card:hover {
   cursor: pointer;
 }
-.bg-white .cards .card:hover .pHover {
+.bg-cards .cards .card:hover .pHover {
   display: block;
 }
-.bg-white .cards .card:hover .fa-arrow-right {
+.bg-cards .cards .card:hover .fa-arrow-right {
   display: block;
 }
 
@@ -473,23 +473,23 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-results h4 {
   text-align: center;
-  color: #3EABAA;
+  color: #41C457;
   text-transform: uppercase;
   padding-top: 80px;
   padding-bottom: 30px;
   font-size: 0.8em;
 }
-.bg-results #company {
+.bg-results .titSec {
   width: 90%;
   margin: 0 auto;
   color: #fff;
   text-align: center;
 }
-.bg-results #company span {
+.bg-results .titSec span {
   font-size: 2em;
   font-weight: 700;
 }
-.bg-results #company span.Title {
+.bg-results .titSec span.Title {
   display: inline-block;
   padding: 5px;
   background-color: #0E272D;
@@ -508,22 +508,132 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   font-weight: 700;
 }
 .bg-results .numbers .number span {
-  color: #3EABAA;
+  color: #41C457;
   font-size: 1.3em;
 }
 
-.bg-blu {
+.bg-sponsor {
   background-color: #111117;
-  height: 200px;
+  height: 180px;
 }
-.bg-blu .containerImg {
+.bg-sponsor .containerImg {
   width: 80%;
-  height: 200px;
+  height: 180px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.bg-blu .containerImg img {
+.bg-sponsor .containerImg img {
   width: 100px;
+}
+
+.bg-form .container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+}
+.bg-form .container .form {
+  width: 65%;
+}
+.bg-form .container .form h4 {
+  color: #41C457;
+  text-transform: uppercase;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+.bg-form .container .form .titSec {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.bg-form .container .form .titSec .Title {
+  color: #21333E;
+}
+.bg-form .container .form .titSec .touch {
+  padding: 5px;
+  color: #41C457;
+  background-color: #D5E7E8;
+  border-radius: 4px;
+}
+.bg-form .container .form p {
+  color: #7F7F7F;
+  font-size: 0.9em;
+  margin-bottom: 50px;
+}
+.bg-form .container .form .forms form input {
+  border: none;
+  padding: 10px;
+  background-color: #ECECEC;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  width: calc(90% / 2 - 5px);
+  margin-right: 5px;
+}
+.bg-form .container .form .forms form textarea {
+  width: 80%;
+  border: none;
+  background-color: #ECECEC;
+  border-radius: 4px;
+  padding: 10px;
+  width: calc(95% - 15px);
+}
+.bg-form .container .form .forms form .btn {
+  margin-top: 20px;
+}
+.bg-form .container .form .forms form i {
+  color: #7E7E7E;
+}
+.bg-form .container .example {
+  width: 30%;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.bg-form .container .example p {
+  margin-top: 20px;
+  color: #7F7F7F;
+  font-size: 0.9em;
+}
+.bg-form .container .example .iconEx {
+  color: #41C457;
+  margin-top: 40px;
+}
+.bg-form .container .example .iconEx li {
+  margin-top: 20px;
+}
+.bg-form .container .example .iconEx i {
+  padding: 10px;
+  background-color: #D5E7E8;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.bg-form .container .example .iconEx i.fa-map-marker-alt {
+  margin-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.bg-form .container .example .btn-2 {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.bg-footer {
+  width: 100%;
+  height: 300px;
+  background-color: #111117;
+}
+.bg-footer .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.bg-footer .container .leftFoot {
+  width: 30%;
+  height: 300px;
+}
+.bg-footer .container .rightFoot {
+  width: 70%;
+  height: 300px;
 }

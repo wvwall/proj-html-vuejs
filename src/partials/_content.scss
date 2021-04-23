@@ -13,7 +13,7 @@
             span {
                 &.upper {
                     text-transform: uppercase;
-                    color: #3EABAA;
+                    color: $primaryColor;
                     font-size: 0.8em;
                     padding: 30px 0;
                 }
@@ -73,7 +73,7 @@
                     justify-content: space-between;
                     i {
                         font-size: 1.9em;
-                        color: #058283;
+                        color: $primaryColor;
                     }
                 }
                 .infoCard {
@@ -121,12 +121,12 @@
                         margin: 0 auto;
                         display: block;
                         text-transform: uppercase;
-                        color: #3EABAA;
+                        color: $primaryColor;
                         font-size: 0.8em;
                         padding: 30px 0;
                     }
                 }
-                #company {
+                .titSec {
                     width: 90%;
                     margin: 0 auto;
                     span {
@@ -156,13 +156,12 @@
                 .card {
                     width: calc(100% / 2 - 10px);
                     min-height: 100px;
-                    
                     margin-top: 30px;
                     h4 {
                         width: 80%;
                         margin: 0 auto;
                         i {
-                            color:#3EABAA;
+                            color:$primaryColor;
                             margin-right: 10px;
                         }
                     }
@@ -197,7 +196,7 @@
     }
 }
 
-.bg-white {
+.bg-cards {
     margin-top: 120px;
     margin-bottom: 80px;
     h4 {
@@ -207,7 +206,7 @@
         font-size: 0.8em;
         padding: 20px;
     }
-    .titlePro {
+    .titSec {
         text-align: center;
         font-size: 2em;
         font-weight: 700;
@@ -298,13 +297,13 @@
     color: #fff;
     h4 {
         text-align: center;
-        color: #3EABAA;
+        color: $primaryColor;
         text-transform: uppercase;
         padding-top: 80px;
         padding-bottom: 30px;
         font-size: 0.8em;
     }
-    #company {
+    .titSec {
         width: 90%;
         margin: 0 auto;
         color: #fff;
@@ -331,7 +330,7 @@
             font-size: 1.2em;
             font-weight: 700;
             span {
-                color: #3EABAA;
+                color: $primaryColor;
                 font-size: 1.3em;
             }
         }
@@ -339,18 +338,117 @@
     }
 }
 
-.bg-blu {
+.bg-sponsor {
     background-color: #111117;
-    height: 200px;
+    height: 180px;
     .containerImg {
         width: 80%;
-        height: 200px;
+        height: 180px;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
         img {
             width: 100px;
+        }
+    }
+}
+
+.bg-form {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: flex;
+        .form {
+            width: 65%;
+            h4 {
+                color: $primaryColor;
+                text-transform: uppercase;
+                padding-top: 80px;
+                padding-bottom: 30px;
+                font-size: 0.8em;
+            }
+            .titSec {
+                font-size: 2em;
+                font-weight: 700;
+                margin-bottom: 20px;
+                .Title {
+                    color: $colorTitle
+                }
+                .touch {
+                    padding: 5px;
+                    color: $btn-color;
+                    background-color: $bgTitle;
+                    border-radius: 4px;
+                }
+            }
+            p {
+                color: $colorP;
+                font-size: 0.9em;
+                margin-bottom: 50px;
+            }
+            .forms {
+                
+                form {
+                    input {
+                        border: none;
+                        padding: 10px;
+                        background-color: #ECECEC;
+                        border-radius: 4px;
+                        margin-bottom: 15px;
+                        width: calc(90% / 2 - 5px);
+                        margin-right: 5px;
+                    }
+                    textarea {
+                        width: 80%;
+                        border: none;
+                        background-color: #ECECEC;
+                        border-radius: 4px;
+                        padding: 10px;
+                        width: calc(95% - 15px);
+                    }
+                    .btn {
+                        margin-top: 20px;
+                    }
+                    i {
+                        color: #7E7E7E;
+                    }
+                }
+            }
+        }
+        .example {
+            width: 30%;
+            
+            margin-top: 80px;
+            margin-left: 10px;
+            p {
+                margin-top: 20px;
+                color: $colorP;
+                font-size: 0.9em;
+            }
+            .iconEx {
+                color: $primaryColor;
+                margin-top: 40px;
+                li{
+                    margin-top: 20px;
+                }
+                i {
+                    padding: 10px;
+                    background-color: #D5E7E8;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    &.fa-map-marker-alt {
+                        margin-right: 15px;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                    }
+                }
+            }
+            .btn-2 {
+                margin-top: 30px;
+                cursor: pointer;
+            }
         }
     }
 }

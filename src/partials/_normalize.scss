@@ -12,7 +12,7 @@ li:hover{
     cursor: pointer;
 }
 .btn {
-    padding: 10px;
+    padding: 10px 15px;
     color: #fff;
     background-color: $btn-color ;
     border-radius: 4px;
@@ -50,7 +50,7 @@ li:hover{
 .bgTitle {
     padding: 5px;
     background-color: #D5E7E8;
-    color:#0B8586;
+    color:$primaryColor;
     border-radius: 4px;
 }
 .titolo {
