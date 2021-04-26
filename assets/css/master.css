@@ -65,8 +65,13 @@ li:hover {
 
 nav .nav-top {
   width: 100%;
-  height: 3em;
+  min-height: 3em;
   background-color: #21333E;
+}
+@media all and (max-width: 620px) {
+  nav .nav-top {
+    display: none;
+  }
 }
 nav .nav-top .container {
   width: 75%;
@@ -76,8 +81,8 @@ nav .nav-top .container.flex {
   display: flex;
 }
 nav .nav-top .container .top-left {
-  height: 3em;
-  width: 50%;
+  min-height: 3em;
+  width: 40%;
 }
 nav .nav-top .container .top-left.flex {
   display: flex;
@@ -88,8 +93,8 @@ nav .nav-top .container .top-left span {
   color: #bcbebc;
 }
 nav .nav-top .container .top-right {
-  width: 50%;
-  height: 3em;
+  width: 60%;
+  min-height: 3em;
 }
 nav .nav-top .container .top-right.flex {
   display: flex;
@@ -102,7 +107,12 @@ nav .nav-top .container .top-right ul.flex {
 nav .nav-top .container .top-right ul li {
   font-size: 0.9em;
   color: #bcbebc;
-  margin-left: 1.5em;
+  margin-left: 1em;
+}
+@media all and (max-width: 1000px) {
+  nav .nav-top .container .top-right ul li {
+    margin-left: 0.5em;
+  }
 }
 nav .bg-jumbo {
   background-image: url("../img/jumbo.jpg");
@@ -111,6 +121,11 @@ nav .bg-jumbo {
 nav .bg-jumbo .nav-bottom .container {
   width: 75%;
   margin: 0 auto;
+}
+@media all and (max-width: 500px) {
+  nav .bg-jumbo .nav-bottom .container {
+    width: 90%;
+  }
 }
 nav .bg-jumbo .nav-bottom .container.flex {
   display: flex;
@@ -124,12 +139,23 @@ nav .bg-jumbo .nav-bottom .container .logo {
 nav .bg-jumbo .nav-bottom .container .logo img {
   width: 9em;
 }
+@media all and (max-width: 500px) {
+  nav .bg-jumbo .nav-bottom .container .logo img {
+    width: 6em;
+  }
+}
 nav .bg-jumbo .nav-bottom .container ul {
   width: 70%;
   height: 5em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 500px) {
+  nav .bg-jumbo .nav-bottom .container ul {
+    justify-content: center;
+  }
 }
 nav .bg-jumbo .nav-bottom .container ul li {
   margin-left: 1.5em;
@@ -139,6 +165,11 @@ nav .bg-jumbo .nav-bottom .container ul li a {
   text-transform: uppercase;
   color: #504151;
   font-size: 0.9em;
+}
+@media all and (max-width: 500px) {
+  nav .bg-jumbo .nav-bottom .container ul li a {
+    font-size: 0.8em;
+  }
 }
 nav .bg-jumbo .nav-bottom .container ul li a.btn {
   padding: 10px;
@@ -174,6 +205,14 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .title span {
 nav .bg-jumbo .nav-bottom .jumbo .infoJumbo p {
   margin-top: 20px;
   color: #6A767E;
+}
+@media all and (max-width: 900px) {
+  nav .bg-jumbo .nav-bottom .jumbo .infoJumbo p {
+    position: relative;
+    bottom: -180px;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-top: 30px;
@@ -220,7 +259,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   font-size: 0.8em;
 }
 .bg-lightgreen .container .info .flex button {
-  height: 40px;
+  max-height: 60px;
   margin-top: 20px;
 }
 .bg-lightgreen .container .cards {
@@ -232,7 +271,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   flex-wrap: wrap;
 }
 .bg-lightgreen .container .cards .card {
-  width: calc(100% / 3 - 20px);
+  width: 300px;
   min-height: 220px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -279,12 +318,12 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-bottom: 20px;
 }
 .bg-blue .container {
-  height: 700px;
+  height: auto;
   width: 50%;
 }
 .bg-blue .container.right {
   background-image: url("../img/about-4.jpg");
-  height: 700px;
+  height: auto;
   background-size: cover;
 }
 .bg-blue .container.left {
@@ -294,8 +333,13 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-blue .container.left .infoLeft {
   width: 80%;
-  height: 550px;
+  height: auto;
   color: #fff;
+}
+@media all and (max-width: 500px) {
+  .bg-blue .container.left .infoLeft {
+    width: 100%;
+  }
 }
 .bg-blue .container.left .infoLeft span.upper {
   width: 90%;
@@ -313,6 +357,11 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 .bg-blue .container.left .infoLeft .titSec span {
   font-size: 2em;
   font-weight: 700;
+}
+@media all and (max-width: 500px) {
+  .bg-blue .container.left .infoLeft .titSec span {
+    font-size: 1.8em;
+  }
 }
 .bg-blue .container.left .infoLeft .titSec span.Title {
   display: inline-block;
@@ -333,7 +382,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   flex-wrap: wrap;
 }
 .bg-blue .container.left .cards .card {
-  width: calc(100% / 2 - 10px);
+  width: 200px;
   min-height: 100px;
   margin-top: 30px;
 }
@@ -349,10 +398,16 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   width: 80%;
   margin: 0 auto;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .bg-blue .container.left .btns {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.bg-blue .container.left .btns .btn {
+  margin-bottom: 10px;
 }
 .bg-blue .bullets-1 {
   position: absolute;
@@ -391,6 +446,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 .bg-cards .list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 60%;
   margin: 0 auto;
 }
@@ -413,8 +469,8 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   flex-wrap: wrap;
 }
 .bg-cards .cards .card {
-  width: calc(100% / 3 - 25px);
-  height: 330px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
   margin-bottom: 20px;
   position: relative;
@@ -501,6 +557,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin: 0 auto;
   margin-top: 50px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .bg-results .numbers .number {
   text-align: center;
@@ -534,8 +591,18 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-bottom: 100px;
   display: flex;
 }
+@media all and (max-width: 500px) {
+  .bg-form .container {
+    flex-direction: column;
+  }
+}
 .bg-form .container .form {
   width: 65%;
+}
+@media all and (max-width: 500px) {
+  .bg-form .container .form {
+    width: 80%;
+  }
 }
 .bg-form .container .form h4 {
   color: #41C457;
@@ -591,6 +658,11 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-top: 80px;
   margin-left: 10px;
 }
+@media all and (max-width: 500px) {
+  .bg-form .container .example {
+    width: 80%;
+  }
+}
 .bg-form .container .example p {
   margin-top: 20px;
   color: #7F7F7F;
@@ -621,20 +693,31 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 
 .bg-footer {
   width: 100%;
-  height: 400px;
+  height: auto;
   background-color: #111117;
 }
 .bg-footer .container {
   width: 80%;
   margin: 0 auto;
-  height: 400px;
+  height: auto;
   display: flex;
   align-items: center;
   color: #fff;
   opacity: 0.8;
 }
+@media all and (max-width: 500px) {
+  .bg-footer .container {
+    flex-direction: column;
+  }
+}
 .bg-footer .container .leftFoot {
   width: 25%;
+}
+@media all and (max-width: 500px) {
+  .bg-footer .container .leftFoot {
+    width: 80%;
+    margin-top: 20px;
+  }
 }
 .bg-footer .container .leftFoot img {
   width: 150px;
@@ -660,19 +743,22 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 }
 .bg-footer .container .rightFoot {
   width: 75%;
-  height: 300px;
+  height: auto;
 }
 .bg-footer .container .rightFoot .container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  height: 300px;
+  height: auto;
 }
 .bg-footer .container .rightFoot .container ul {
   width: 205px;
-  padding: 30px;
+  padding: 25px;
   background-color: #19191F;
   border-radius: 5px;
+  margin-top: 10px;
 }
 .bg-footer .container .rightFoot .container ul li {
   font-size: 0.9em;
@@ -689,7 +775,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 
 .bg-footer-bottom {
   width: 100%;
-  height: 80px;
+  height: auto;
   background-color: #0D0D11;
 }
 .bg-footer-bottom .container {

@@ -1,17 +1,24 @@
 .bg-footer {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #111117;
     .container {
         width: 80%;
         margin: 0 auto;
-        height: 400px;
+        height: auto;
         display: flex;
         align-items: center;
         color: #fff;
         opacity: 0.8;
+        @media all and (max-width : 500px) {
+            flex-direction: column;
+        }
         .leftFoot {
             width: 25%;
+            @media all and (max-width : 500px) {
+                width: 80%;
+                margin-top: 20px;
+            }
             
             img {
                 width: 150px;
@@ -40,17 +47,21 @@
         }
         .rightFoot {
             width: 75%;
-            height: 300px;
+            height: auto;
             .container {
+                width: 100%;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
                 align-items: center;
-                height: 300px;
+                height: auto;
+                
                 ul {
                     width: 205px;
-                    padding: 30px;
+                    padding: 25px;
                     background-color: #19191F;
                     border-radius: 5px;
+                    margin-top: 10px;
                     li {
                         font-size: 0.9em;
                         margin-bottom: 10px;
@@ -71,10 +82,9 @@
 
 .bg-footer-bottom {
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: #0D0D11;
     .container {
-        
         width: 80%;
         margin: 0 auto;
         color: #fff;
