@@ -79,10 +79,12 @@ nav .nav-top .container {
 }
 nav .nav-top .container.flex {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 nav .nav-top .container .top-left {
   min-height: 3em;
-  width: 40%;
+  /* width: 40%; */
 }
 nav .nav-top .container .top-left.flex {
   display: flex;
@@ -93,13 +95,13 @@ nav .nav-top .container .top-left span {
   color: #bcbebc;
 }
 nav .nav-top .container .top-right {
-  width: 60%;
+  /* width: 60%; */
   min-height: 3em;
 }
 nav .nav-top .container .top-right.flex {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  /*  justify-content: flex-end; */
 }
 nav .nav-top .container .top-right ul.flex {
   display: flex;
@@ -155,6 +157,7 @@ nav .bg-jumbo .nav-bottom .container ul {
 @media all and (max-width: 500px) {
   nav .bg-jumbo .nav-bottom .container ul {
     justify-content: center;
+    margin-top: 20px;
   }
 }
 nav .bg-jumbo .nav-bottom .container ul li {
@@ -177,6 +180,12 @@ nav .bg-jumbo .nav-bottom .container ul li a.btn {
   background-color: #41C457;
   border-radius: 4px;
 }
+@media all and (max-width: 500px) {
+  nav .bg-jumbo .nav-bottom .container ul li a.btn {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+}
 nav .bg-jumbo .nav-bottom .container ul li a.btn:hover {
   text-decoration: none;
 }
@@ -192,7 +201,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo {
   width: 400px;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 35%;
   transform: translate(-50%, -40%);
   display: flex;
   flex-direction: column;
@@ -277,7 +286,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   margin-bottom: 20px;
   cursor: pointer;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -447,7 +456,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 .bg-cards .list li {
@@ -639,6 +648,11 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   width: calc(90% / 2 - 5px);
   margin-right: 5px;
 }
+@media all and (max-width: 500px) {
+  .bg-form .container .form .forms form input {
+    width: 80%;
+  }
+}
 .bg-form .container .form .forms form textarea {
   width: 80%;
   border: none;
@@ -758,7 +772,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
   padding: 25px;
   background-color: #19191F;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 .bg-footer .container .rightFoot .container ul li {
   font-size: 0.9em;
@@ -776,6 +790,7 @@ nav .bg-jumbo .nav-bottom .jumbo .infoJumbo .btns {
 .bg-footer-bottom {
   width: 100%;
   height: auto;
+  padding-bottom: 25px;
   background-color: #0D0D11;
 }
 .bg-footer-bottom .container {

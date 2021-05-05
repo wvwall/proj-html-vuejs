@@ -56,7 +56,7 @@
                 margin-bottom: 20px;
                 cursor: pointer;
                 background-color: #fff;
-                border-radius: 5px;
+                border-radius:10px;
                 display: flex;
                 flex-direction: column;
                 &.card:hover .fa-arrow-right {
@@ -230,7 +230,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         li {
             padding: 10px;
@@ -421,6 +421,9 @@
                         margin-bottom: 15px;
                         width: calc(90% / 2 - 5px);
                         margin-right: 5px;
+                        @media all and (max-width : 500px) {
+                            width: 80%;
+                        }
                     }
                     textarea {
                         width: 80%;
