@@ -1,2 +1,2 @@
 proj-html-vuejs
-![Screenshot](Nexgen.png)
+![Screenshot](NexGen.png)
