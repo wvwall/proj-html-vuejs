@@ -184,6 +184,7 @@ nav .bg-jumbo .nav-bottom .container ul li a.btn {
   nav .bg-jumbo .nav-bottom .container ul li a.btn {
     margin-top: 10px;
     font-size: 0.8em;
+    display: none;
   }
 }
 nav .bg-jumbo .nav-bottom .container ul li a.btn:hover {
